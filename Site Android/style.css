@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*Bebas Neue*/ 
+
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+:root{ /*VARIAVEIS*/
+    --cor_fundo: #89CDA5;
+    --font: idroid;
+}
+
+body{
+    background-color: var(--cor_fundo);
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #89CDA5, #1a5a37);
+    padding: 5px;
+}
+
+header > p{   
+        color: white;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+}
+
+#principal{
+    font-family: 'Bebas neue';
+    color: white;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ img{
+    width: 100%;
+    display: block;
+    margin: auto;
+ }
+
+a{
+    color:#1a5a37;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+}
+
+a:hover{
+    color: white;
+    background-color: #1a5a37;
+}
+
+h1{
+    font-family: var(--font);
+    color: #1a5a37;
+}
+
+h2{
+    color: #1a5a37;
+    background-image: linear-gradient(to right, #89CDA5, white);
+    font-family: idroid;
+}
+
+.bugdroid{
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+
+p{
+    line-height: 2em;
+    text-indent: 1.5em;
+}
+
+.videoyt > iframe{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+}
+
+.videoyt{
+    background-color: #1a5a37;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    margin: 0px;
+}
+
+
+h3{
+    background-color: #1a5a37;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    color: white;
+    margin: -10px -10px 0px -10px;
+}
+
+ul{
+    columns: 2;
+    list-style: none;
+}
+
+
+.artigo{
+    background-color: #89cda573;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+
+footer{
+    background-color: #1a5a37;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
